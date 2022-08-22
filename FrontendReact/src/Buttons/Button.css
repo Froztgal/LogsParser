@@ -1,0 +1,86 @@
+.button {
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+    background: linear-gradient(45deg, #DA22FF 0%, #9733EE 50%, #6a0dad 100%);
+    color: #fff;
+    border: 0;
+    clip-path: polygon(10% 0%, 95% 0%, 85% 100%, 0% 100%);
+    outline: transparent;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #6a0dad;
+    color: #fff;
+}
+
+.button_container_sizer {
+    width: 400px;
+    height: 40px;
+    margin: 5px;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.button_container {
+    width: 400px;
+    height: 40px;
+    margin: 5px;
+    background: #900C3F;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.button_container_pressed {
+    background: #097969;
+}
+
+.inline {
+    display: inline-block;
+}
+
+/* Table Buttons =========================================================== */
+.tableButtonDefault {
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    font-size: large;
+    outline: transparent;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.tableButtonUploaded {
+    background-color: goldenrod;
+}
+
+.tableButtonProcessed {
+    background-color: greenyellow;
+}
+
+.shadow:hover {
+    box-shadow: 0 0 10px purple;
+}
+
+/* XButton ================================================================= */
+
+.XButton {
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: large;
+    outline: transparent;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    background-color: #800000;
+    border: 2px solid #000;
+}
+
+.XButton:hover {
+    box-shadow: 0 0 10px #097968;
+}

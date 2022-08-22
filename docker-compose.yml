@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+
+  database:
+    image: "postgres:latest"
+    container_name: database
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=pass
+
+  backend:
+    build: ./BackendFastAPI
+    container_name: backend
+    ports:
+      - 8080:8080
+    links:
+      - database
+
+  frontend:
+    build: ./FrontendReact
+    container_name: frontend
+    ports:
+      - 80:80
+    links:
+      - backend

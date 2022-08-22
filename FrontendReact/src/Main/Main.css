@@ -1,0 +1,12 @@
+div {
+    text-align: center;
+}
+
+.menu {
+    background-color: #000080;
+    border: 5px solid #900C3F;
+}
+
+a.active .button_container {
+    background-color: #097969;
+}

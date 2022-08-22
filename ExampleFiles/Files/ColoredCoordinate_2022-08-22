@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Document id="1">
+		<Style id="bad">
+			<IconStyle id="bad_1">
+				<color>E63E31FF</color>
+				<colorMode>normal</colorMode>
+				<scale>1</scale>
+				<heading>0</heading>
+				<Icon id="bad_2">
+					<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="normal">
+			<IconStyle id="normal_1">
+				<color>E793FFFF</color>
+				<colorMode>normal</colorMode>
+				<scale>1</scale>
+				<heading>0</heading>
+				<Icon id="normal_2">
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="good">
+			<IconStyle id="good_1">
+				<color>FF499C54</color>
+				<colorMode>normal</colorMode>
+				<scale>1</scale>
+				<heading>0</heading>
+				<Icon id="good_2">
+					<href>https://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Placemark id="0">
+			<styleUrl>#good</styleUrl>
+			<Point id="0">
+				<coordinates>37.7259,55.8823,167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1">
+			<styleUrl>#normal</styleUrl>
+			<Point id="1">
+				<coordinates>37.73692925,55.89082793,94</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="2">
+			<styleUrl>#normal</styleUrl>
+			<Point id="2">
+				<coordinates>37.7479585,55.89935586,198</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="3">
+			<styleUrl>#bad</styleUrl>
+			<Point id="3">
+				<coordinates>37.75898775,55.90788379,96</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4">
+			<styleUrl>#bad</styleUrl>
+			<Point id="4">
+				<coordinates>37.770017,55.91641172,150</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="5">
+			<styleUrl>#bad</styleUrl>
+			<Point id="5">
+				<coordinates>37.78104625,55.92493965,141</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="6">
+			<styleUrl>#normal</styleUrl>
+			<Point id="6">
+				<coordinates>37.7920755,55.93346758,176</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="7">
+			<styleUrl>#bad</styleUrl>
+			<Point id="7">
+				<coordinates>37.80310475,55.94199551,115</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="8">
+			<styleUrl>#normal</styleUrl>
+			<Point id="8">
+				<coordinates>37.814134,55.95052344,153</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="9">
+			<styleUrl>#bad</styleUrl>
+			<Point id="9">
+				<coordinates>37.82516325,55.95905137,107</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="10">
+			<styleUrl>#normal</styleUrl>
+			<Point id="10">
+				<coordinates>37.8361925,55.9675793,81</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="11">
+			<styleUrl>#good</styleUrl>
+			<Point id="11">
+				<coordinates>37.84722175,55.976107230000004,129</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="12">
+			<styleUrl>#bad</styleUrl>
+			<Point id="12">
+				<coordinates>37.858251,55.98463516,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="13">
+			<styleUrl>#bad</styleUrl>
+			<Point id="13">
+				<coordinates>37.86928025,55.99316309,181</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="14">
+			<styleUrl>#normal</styleUrl>
+			<Point id="14">
+				<coordinates>37.8803095,56.00169102,112</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="15">
+			<styleUrl>#normal</styleUrl>
+			<Point id="15">
+				<coordinates>37.89133875,56.01021895,80</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="16">
+			<styleUrl>#good</styleUrl>
+			<Point id="16">
+				<coordinates>37.902368,56.01874688,94</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="17">
+			<styleUrl>#bad</styleUrl>
+			<Point id="17">
+				<coordinates>37.91339725,56.02727481,179</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="18">
+			<styleUrl>#normal</styleUrl>
+			<Point id="18">
+				<coordinates>37.9244265,56.03580274,96</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="19">
+			<styleUrl>#bad</styleUrl>
+			<Point id="19">
+				<coordinates>37.93545575,56.04433067,149</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="20">
+			<styleUrl>#bad</styleUrl>
+			<Point id="20">
+				<coordinates>37.946485,56.0528586,122</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="21">
+			<styleUrl>#good</styleUrl>
+			<Point id="21">
+				<coordinates>37.95751425,56.06138653,136</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="22">
+			<styleUrl>#good</styleUrl>
+			<Point id="22">
+				<coordinates>37.9685435,56.06991446,196</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="23">
+			<styleUrl>#normal</styleUrl>
+			<Point id="23">
+				<coordinates>37.97957275,56.07844239,102</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="24">
+			<styleUrl>#normal</styleUrl>
+			<Point id="24">
+				<coordinates>37.990602,56.08697032,170</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="25">
+			<styleUrl>#normal</styleUrl>
+			<Point id="25">
+				<coordinates>38.00163125,56.09549825,194</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="26">
+			<styleUrl>#normal</styleUrl>
+			<Point id="26">
+				<coordinates>38.0126605,56.10402618,100</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="27">
+			<styleUrl>#bad</styleUrl>
+			<Point id="27">
+				<coordinates>38.02368975,56.11255411,160</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="28">
+			<styleUrl>#normal</styleUrl>
+			<Point id="28">
+				<coordinates>38.034719,56.12108204,88</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="29">
+			<styleUrl>#bad</styleUrl>
+			<Point id="29">
+				<coordinates>38.04574825,56.12960997,181</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="30">
+			<styleUrl>#good</styleUrl>
+			<Point id="30">
+				<coordinates>38.0567775,56.138137900000004,186</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="31">
+			<styleUrl>#normal</styleUrl>
+			<Point id="31">
+				<coordinates>38.06780675,56.14666583,186</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="32">
+			<styleUrl>#good</styleUrl>
+			<Point id="32">
+				<coordinates>38.078836,56.15519376,157</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="33">
+			<styleUrl>#normal</styleUrl>
+			<Point id="33">
+				<coordinates>38.08986525,56.16372169,120</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="34">
+			<styleUrl>#bad</styleUrl>
+			<Point id="34">
+				<coordinates>38.1008945,56.17224962,155</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="35">
+			<styleUrl>#bad</styleUrl>
+			<Point id="35">
+				<coordinates>38.11192375,56.18077755,169</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="36">
+			<styleUrl>#bad</styleUrl>
+			<Point id="36">
+				<coordinates>38.122953,56.18930548,101</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="37">
+			<styleUrl>#normal</styleUrl>
+			<Point id="37">
+				<coordinates>38.13398225,56.19783341,172</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="38">
+			<styleUrl>#bad</styleUrl>
+			<Point id="38">
+				<coordinates>38.1450115,56.20636134,167</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="39">
+			<styleUrl>#good</styleUrl>
+			<Point id="39">
+				<coordinates>38.15604075,56.21488927,161</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="40">
+			<styleUrl>#normal</styleUrl>
+			<Point id="40">
+				<coordinates>38.16707,56.2234172,127</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="41">
+			<styleUrl>#good</styleUrl>
+			<Point id="41">
+				<coordinates>38.17809925,56.23194513,145</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="42">
+			<styleUrl>#good</styleUrl>
+			<Point id="42">
+				<coordinates>38.1891285,56.24047306,197</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="43">
+			<styleUrl>#bad</styleUrl>
+			<Point id="43">
+				<coordinates>38.20015775,56.24900099,150</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="44">
+			<styleUrl>#normal</styleUrl>
+			<Point id="44">
+				<coordinates>38.211187,56.25752892,170</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="45">
+			<styleUrl>#normal</styleUrl>
+			<Point id="45">
+				<coordinates>38.22221625,56.26605685,170</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="46">
+			<styleUrl>#bad</styleUrl>
+			<Point id="46">
+				<coordinates>38.2332455,56.27458478,82</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="47">
+			<styleUrl>#normal</styleUrl>
+			<Point id="47">
+				<coordinates>38.24427475,56.28311271,195</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="48">
+			<styleUrl>#good</styleUrl>
+			<Point id="48">
+				<coordinates>38.255304,56.29164064,102</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="49">
+			<styleUrl>#normal</styleUrl>
+			<Point id="49">
+				<coordinates>38.26633325,56.30016857,172</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="50">
+			<styleUrl>#bad</styleUrl>
+			<Point id="50">
+				<coordinates>38.2773625,56.308696499999996,109</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="51">
+			<styleUrl>#normal</styleUrl>
+			<Point id="51">
+				<coordinates>38.28839175,56.31722443,83</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="52">
+			<styleUrl>#bad</styleUrl>
+			<Point id="52">
+				<coordinates>38.299421,56.32575236,154</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="53">
+			<styleUrl>#good</styleUrl>
+			<Point id="53">
+				<coordinates>38.31045025,56.33428029,96</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="54">
+			<styleUrl>#good</styleUrl>
+			<Point id="54">
+				<coordinates>38.3214795,56.34280822,125</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="55">
+			<styleUrl>#good</styleUrl>
+			<Point id="55">
+				<coordinates>38.33250875,56.35133615,82</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="56">
+			<styleUrl>#good</styleUrl>
+			<Point id="56">
+				<coordinates>38.343538,56.35986408,172</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="57">
+			<styleUrl>#normal</styleUrl>
+			<Point id="57">
+				<coordinates>38.35456725,56.36839201,104</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="58">
+			<styleUrl>#normal</styleUrl>
+			<Point id="58">
+				<coordinates>38.3655965,56.37691994,148</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="59">
+			<styleUrl>#good</styleUrl>
+			<Point id="59">
+				<coordinates>38.37662575,56.38544787,106</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="60">
+			<styleUrl>#good</styleUrl>
+			<Point id="60">
+				<coordinates>38.387655,56.3939758,181</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="61">
+			<styleUrl>#bad</styleUrl>
+			<Point id="61">
+				<coordinates>38.39868425,56.40250373,175</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="62">
+			<styleUrl>#good</styleUrl>
+			<Point id="62">
+				<coordinates>38.4097135,56.41103166,101</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="63">
+			<styleUrl>#bad</styleUrl>
+			<Point id="63">
+				<coordinates>38.42074275,56.41955959,148</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="64">
+			<styleUrl>#normal</styleUrl>
+			<Point id="64">
+				<coordinates>38.431772,56.42808752,130</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="65">
+			<styleUrl>#bad</styleUrl>
+			<Point id="65">
+				<coordinates>38.44280125,56.43661545,114</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="66">
+			<styleUrl>#normal</styleUrl>
+			<Point id="66">
+				<coordinates>38.4538305,56.44514338,80</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="67">
+			<styleUrl>#bad</styleUrl>
+			<Point id="67">
+				<coordinates>38.46485975,56.45367131,85</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="68">
+			<styleUrl>#good</styleUrl>
+			<Point id="68">
+				<coordinates>38.475889,56.46219924,120</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="69">
+			<styleUrl>#bad</styleUrl>
+			<Point id="69">
+				<coordinates>38.48691825,56.470727169999996,94</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="70">
+			<styleUrl>#normal</styleUrl>
+			<Point id="70">
+				<coordinates>38.4979475,56.4792551,191</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="71">
+			<styleUrl>#bad</styleUrl>
+			<Point id="71">
+				<coordinates>38.50897675,56.48778303,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="72">
+			<styleUrl>#bad</styleUrl>
+			<Point id="72">
+				<coordinates>38.520006,56.49631096,152</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="73">
+			<styleUrl>#good</styleUrl>
+			<Point id="73">
+				<coordinates>38.53103525,56.50483889,114</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="74">
+			<styleUrl>#good</styleUrl>
+			<Point id="74">
+				<coordinates>38.5420645,56.51336682,153</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="75">
+			<styleUrl>#normal</styleUrl>
+			<Point id="75">
+				<coordinates>38.55309375,56.52189475,177</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="76">
+			<styleUrl>#normal</styleUrl>
+			<Point id="76">
+				<coordinates>38.564123,56.53042268,197</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="77">
+			<styleUrl>#bad</styleUrl>
+			<Point id="77">
+				<coordinates>38.57515225,56.53895061,166</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="78">
+			<styleUrl>#normal</styleUrl>
+			<Point id="78">
+				<coordinates>38.5861815,56.54747854,178</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="79">
+			<styleUrl>#bad</styleUrl>
+			<Point id="79">
+				<coordinates>38.59721075,56.55600647,177</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="80">
+			<styleUrl>#normal</styleUrl>
+			<Point id="80">
+				<coordinates>38.60824,56.5645344,151</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="81">
+			<styleUrl>#bad</styleUrl>
+			<Point id="81">
+				<coordinates>38.61926925,56.57306233,115</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="82">
+			<styleUrl>#normal</styleUrl>
+			<Point id="82">
+				<coordinates>38.6302985,56.58159026,152</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="83">
+			<styleUrl>#bad</styleUrl>
+			<Point id="83">
+				<coordinates>38.64132775,56.59011819,169</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="84">
+			<styleUrl>#bad</styleUrl>
+			<Point id="84">
+				<coordinates>38.652357,56.59864612,133</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="85">
+			<styleUrl>#good</styleUrl>
+			<Point id="85">
+				<coordinates>38.66338625,56.60717405,87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="86">
+			<styleUrl>#normal</styleUrl>
+			<Point id="86">
+				<coordinates>38.6744155,56.61570198,149</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="87">
+			<styleUrl>#good</styleUrl>
+			<Point id="87">
+				<coordinates>38.68544475,56.62422991,117</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="88">
+			<styleUrl>#normal</styleUrl>
+			<Point id="88">
+				<coordinates>38.696474,56.63275784,152</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="89">
+			<styleUrl>#normal</styleUrl>
+			<Point id="89">
+				<coordinates>38.70750325,56.641285769999996,80</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="90">
+			<styleUrl>#normal</styleUrl>
+			<Point id="90">
+				<coordinates>38.7185325,56.649813699999996,123</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="91">
+			<styleUrl>#good</styleUrl>
+			<Point id="91">
+				<coordinates>38.72956175,56.65834163,165</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="92">
+			<styleUrl>#bad</styleUrl>
+			<Point id="92">
+				<coordinates>38.740591,56.66686956,120</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="93">
+			<styleUrl>#bad</styleUrl>
+			<Point id="93">
+				<coordinates>38.75162025,56.67539749,94</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="94">
+			<styleUrl>#normal</styleUrl>
+			<Point id="94">
+				<coordinates>38.7626495,56.68392542,126</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="95">
+			<styleUrl>#bad</styleUrl>
+			<Point id="95">
+				<coordinates>38.77367875,56.69245335,150</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="96">
+			<styleUrl>#bad</styleUrl>
+			<Point id="96">
+				<coordinates>38.784708,56.70098128,158</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="97">
+			<styleUrl>#good</styleUrl>
+			<Point id="97">
+				<coordinates>38.79573725,56.70950921,146</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="98">
+			<styleUrl>#normal</styleUrl>
+			<Point id="98">
+				<coordinates>38.8067665,56.71803714,159</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="99">
+			<styleUrl>#bad</styleUrl>
+			<Point id="99">
+				<coordinates>38.81779575,56.72656507,93</coordinates>
+			</Point>
+		</Placemark>
+
+	</Document>
+</kml>

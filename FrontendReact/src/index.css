@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url(./static/fonts/JetBrainsMono-ExtraBold.woff2) format('woff2');
+
+}
+
+* {
+    font-family: "JetBrainsMono";
+    margin: 0%;
+    letter-spacing: 3px;
+}

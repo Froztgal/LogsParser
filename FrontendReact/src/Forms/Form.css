@@ -1,0 +1,78 @@
+form {
+    display: inline-block;
+    text-align: center;
+    width: 640px;
+    height: 480px;
+    padding: 12px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #D3D3D3;
+    border: 5px solid #900C3F;
+    position: relative;
+    z-index: 0;
+}
+
+fieldset {
+    text-align: center;
+    margin: 5px;
+}
+
+legend {
+    text-align: left;
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.ImageHolder {
+    height: 350px;
+    justify-content: center;
+    background: repeating-linear-gradient(-45deg,
+            #ffffff,
+            #D3D3D3 7px);
+    border: 5px solid #900C3F;
+}
+
+/* Modal Window ============================================================ */
+.modalArea {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background-color: #ffffff94;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalForm {
+    width: 720px;
+    height: 640px;
+    background-color: #000080;
+    border: 5px solid #000;
+}
+
+.modalButtonHolder {
+    display: flex;
+    justify-content: right;
+    margin: 5px;
+}
+
+/* Coordinates ============================================================= */
+.inputTime {
+    margin: 5px;
+}
+
+.timeForm {
+    height: 440px;
+    margin: 5px;
+    text-align: left;
+    overflow: scroll;
+}

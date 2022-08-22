@@ -1,0 +1,13 @@
+.textHolder {
+    display: inline-block;
+    text-align: left;
+    width: 840px;
+    height: 480px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #D3D3D3;
+    border: 5px solid #900C3F;
+    position: relative;
+    z-index: 0;
+}
