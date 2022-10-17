@@ -144,4 +144,3 @@ if __name__ == "__main__":
     # Generate styled_coordinates
     log_date = date.today() + timedelta(days=0)
     generate_styled_coordinate_kml(log_date)
-    pass

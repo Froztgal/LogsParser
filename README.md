@@ -27,11 +27,11 @@ docker-compose up -d
 
 ![alt text](https://github.com/Froztgal/LogsParser/blob/main/images/HomePage.png?raw=true)
 
-С инструкцией по использованию сайта можно ознакомиться во вкладке "Интсрукции"
+С инструкцией по использованию сайта можно ознакомиться во вкладке "Инструкции"
 
 ![alt text](https://github.com/Froztgal/LogsParser/blob/main/images/GuidesPage.png?raw=true)
 
-Загрузить новые файлы можно во вкладке "Загрузить"
+Загрузить новые файлы можно во вкладке "Загрузить". Примеры названия файлов и сами тестовые файлы можно найти в папке ExampleFiles/Files, тажке при желании можно сгенерировать новые файлы скриптом generator.py
 
 ![alt text](https://github.com/Froztgal/LogsParser/blob/main/images/UploadPageBase.png?raw=true)
 
