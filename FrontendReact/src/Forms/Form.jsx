@@ -1,18 +1,21 @@
 import React, { Component } from "react"
 import axios from "axios"
 import { APP_API_URL } from "../static/config"
-import UploadIcon from "../static/uplod_icon.png"
-import ReadyIcon from "../static/ready_icon.png"
-import UploadedIcon from "../static/uploded_icon.png"
 import Button from "../Buttons/Button"
 import './Form.css'
+
+const images = [
+    require("../static/upload_icon.png"),
+    require("../static/ready_icon.png"),
+    require("../static/uploded_icon.png")
+]
 
 class Form extends Component {
     constructor(props) {
         super(props)
         this.state = {
             files: null,
-            image: UploadIcon
+            image: 0
         }
     }
 
@@ -24,11 +27,10 @@ class Form extends Component {
     // On add files
     handleFileSelect = (e) => {
         let files = e.target.files
-        console.log(files)
 
         this.setState({
             files: files,
-            image: ReadyIcon
+            image: 1
         })
     }
 
@@ -44,11 +46,10 @@ class Form extends Component {
                 if (item.kind === 'file')
                     files.push(item.getAsFile())
         }
-        console.log(files)
 
         this.setState({
             files: files,
-            image: ReadyIcon
+            image: 1
         })
     }
 
@@ -70,10 +71,12 @@ class Form extends Component {
                     },
                 }
             )
-                .then(function (response) {
-                    this.setState({image: UploadedIcon})
-                    console.log(response.status, response.data)
-                })
+            .then(function (response) {
+                console.log(response.status, response.data)
+                
+            })
+
+            this.setState({image: 2})
         }
     }
 
@@ -92,7 +95,7 @@ class Form extends Component {
                             multiple
                             hidden />
                         <div className="ImageHolder">
-                            <img src={this.image} style={{ width: "350px" }}/>
+                            <img src={images[this.state.image]} style={{ width: "350px" }}/>
                         </div>
                     </label>
 
