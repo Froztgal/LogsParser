@@ -21,6 +21,12 @@ docker-compose up -d
 
 ![alt text](https://github.com/Froztgal/LogsParser/blob/main/images/DockerContainers.jpg?raw=true)
 
+## Работа с API
+
+FastAPI автоматически создает документацию, которая достпуна в браузере, в случае запуска на локальной машине введя в строку поиска адрес: ```localhost:8080```, вы попадете на страницу с документацией
+
+![alt text](https://github.com/Froztgal/LogsParser/blob/main/images/FastAPIDocs.png?raw=true)
+
 ## Использование
 
 Введя в браузере адрес хоста, в случае запуска на локальной машине: ```localhost:80```, вы попадете на домашнюю страницу сайта

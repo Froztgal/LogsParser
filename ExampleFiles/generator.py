@@ -14,7 +14,7 @@ from templates import (info_log_template, info_log_values_template,
 """ ===========================================================================
 # >>> SETTINGS
 =========================================================================== """
-FILES_PATH = "ExampleFiles\Files"
+FILES_PATH = "ExampleFiles/Files"
 
 INFO_LOG_FILENAME = "InfoLog"
 TIMED_COORDINATE_KML_FILENAME = "TimedCoordinate"
